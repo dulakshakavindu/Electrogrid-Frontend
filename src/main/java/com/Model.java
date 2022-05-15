@@ -43,6 +43,8 @@ public class Model {
 	 preparedStmt.setString(6, accNo);
 	 // execute the statement
 	 
+	 
+	 
 	 preparedStmt.execute(); 
 	 con.close(); 
 	 output = "Inserted successfully"; 
