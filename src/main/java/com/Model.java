@@ -101,6 +101,7 @@ public class Model {
 	 // Complete the html table
 	 output += "</table>"; 
 	 } 
+	 
 	 catch (Exception e) 
 	 { 
 	 output = "Error while reading the Details"; 
