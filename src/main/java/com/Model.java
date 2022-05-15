@@ -54,6 +54,8 @@ public class Model {
 	 output = "Error while inserting the Details"; 
 	 System.err.println(e.getMessage()); 
 	 } 
+	 String Euser = readService(); 
+		output = "{\"status\":\"success\",\"data\":\""+Euser+"\"}"; 
 	 return output; 
 	 }
 	
@@ -109,6 +111,8 @@ public class Model {
 	 output = "Error while reading the Details"; 
 	 System.err.println(e.getMessage()); 
 	 } 
+	 String Euser = readService(); 
+		output = "{\"status\":\"success\",\"data\":\""+Euser+"\"}"; 
 	 return output; 
 	 }
 
@@ -140,6 +144,8 @@ public class Model {
 	 output = "Error while updating the details"; 
 	 System.err.println(e.getMessage()); 
 	 } 
+	 String Euser = readService(); 
+		output = "{\"status\":\"success\",\"data\":\""+Euser+"\"}"; 
 	 return output; 
 	 } 
 	
@@ -166,6 +172,8 @@ public class Model {
 	 output = "Error while deleting the details"; 
 	 System.err.println(e.getMessage()); 
 	 } 
+	 String Euser = readService(); 
+		output = "{\"status\":\"success\",\"data\":\""+Euser+"\"}"; 
 	 return output; 
 	 }
 
